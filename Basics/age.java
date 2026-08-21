@@ -6,6 +6,6 @@ public class age{
         int age;
         age  = 20;
 
-        System.out.println("i am " + age + " years old");
+        System.out.println("i am " + ages + " years old");
     }    
 }
