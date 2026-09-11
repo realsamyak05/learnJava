@@ -24,7 +24,7 @@ class Circle{
     }
 }
 
-class Main{
+class Main2{
     public static void main(String[] args) {
         int a,b;
         Scanner sc = new Scanner(System.in);
