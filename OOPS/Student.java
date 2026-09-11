@@ -10,6 +10,12 @@ public class Student {
         this.name = name;
         this.age = age;
         this.gpa = gpa;
+
+        isEnrolled = true;
+    }
+
+    void isStudying(){
+        System.out.println(this.name + " is studying");
     }
 
     public static void main(String[] args) {
@@ -18,6 +24,13 @@ public class Student {
 
 
         System.out.println(first.name);
+        System.out.println(second.name);
+        System.out.println(second.age);
+        System.out.println(second.gpa);
+        System.out.println(second.isEnrolled);
+        System.out.println(first.age);
+
+        first.isStudying();
     }
 
     
