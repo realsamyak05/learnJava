@@ -33,7 +33,7 @@ public class ATMTest {
     }
 }
 
-class InsufficientBalanceException extends Exception{
+class InsufficientBalanceException extends Exception222{
 
     public InsufficientBalanceException(String msg) {
         super(msg);

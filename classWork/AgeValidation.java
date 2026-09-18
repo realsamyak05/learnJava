@@ -20,7 +20,7 @@ public class AgeValidation{
     }
 }
 
-class InvalidAgeException extends Exception //checked exception
+class InvalidAgeException extends Exception222 //checked exception
 {
     InvalidAgeException(String msg1)
     {
