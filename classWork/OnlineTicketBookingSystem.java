@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-
 class TicketBooking {
     private ArrayList<Integer> tics;
 

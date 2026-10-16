@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ageValidation{
+public class AgeValidation{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
@@ -20,10 +20,9 @@ public class ageValidation{
     }
 }
 
-class InvalidAgeException extends Exception //checked exception
+class InvalidAgeException extends Exception222 //checked exception
 {
     InvalidAgeException(String msg1)
     {
         super(msg1);
-    }
-}
+    
